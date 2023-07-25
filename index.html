@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> para babi</title>
+</head>
+<body>
+  
+  <div class="painel">
+    <h1> αγάπη </h1>
+
+    <img src="/nubin/nubin.jpeg">
+
+
+    <h3> Aceita namorar comigo? </h3>
+
+      <a href="https://twitter.com/shitpostverdade/status/1681431640634200064" target="_blank"> <button id="sim" > Sim </button></a>
+      <button onmouseover="fuja()" id="nao"> Não </button>
+
+  </div>
+
+  <script>
+
+    function fuja() {
+      var botaoNao = document.getElementById("nao")
+
+      var larguraJanela = window.innerWidth;
+      var alturaJanela = window.innerHeight;
+
+      var maxX = larguraJanela - botaoNao.offsetWidth;
+      var maxY = alturaJanela - botaoNao.offsetHeight;
+
+      var aleatorioX = Math.floor(Math.random() * maxX);
+      var aleatorioY = Math.floor(Math.random() * maxY);
+
+      botaoNao.style.left = aleatorioX + "px";
+      botaoNao.style.top = aleatorioY + "px";
+    }
+
+    //function sexo() {
+     //  alert()
+     // }
+  </script>
+
+</body>
+</html>

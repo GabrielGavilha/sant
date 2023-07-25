@@ -1,0 +1,53 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-image: url(/nubin/ceu.gif); 
+}
+.painel{
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(89, 22, 177);
+  width: 700px;
+  height: 700px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(135, 95, 172);
+  box-shadow: 0 15px 35px rgba(167, 133, 133, 0.05);
+  border-radius: 30px;
+  backdrop-filter: blur(20px);
+  border: 2px solid  rgba(61, 4, 105, 0.589);
+  border-top: 2px solid  rgba(61, 4, 105, 0.589);
+  border-left: 12px solid  rgba(61, 4, 105, 0.589);
+}
+
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: rgb(211, 194, 253);
+  border: 4px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-left: -60px ;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+}
+
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: rgb(211, 194, 253);
+  border: 4px solid black;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+img {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px ;
+  height: 500px;
+  width: 400px;
+}
